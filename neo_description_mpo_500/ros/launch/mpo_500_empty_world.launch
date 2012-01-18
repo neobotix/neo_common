@@ -1,0 +1,8 @@
+<launch>
+
+    <node name="gazebo" pkg="gazebo" type="gazebo" 
+          args="$(find gazebo_worlds)/worlds/empty.world" output="screen" respawn="false" />
+    
+    <include file="$(find neo_description_mpo_500)/ros/launch/mpo_500_mobile_base.launch" />
+
+</launch>

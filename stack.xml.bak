@@ -1,0 +1,9 @@
+<stack>
+  <description brief="neo_common">neo_common</description>
+  <author>Maintained by mob</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/neo_common</url>
+  <depend stack="ros" />
+
+</stack>
