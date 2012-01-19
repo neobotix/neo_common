@@ -46,7 +46,7 @@
         </link>
 
 
-        <joint name="base_caster_support_joint" type="continuous">
+        <joint name="base_caster_support_joint" type="fixed">
             <origin xyz="-0.5 0 0.08" rpy="0 0 0" />
             <parent link="base_link" />
             <child link="base_caster_support_link"/>
@@ -82,7 +82,7 @@
 
 
 
-        <joint name="caster_wheel_joint" type="continuous">
+        <joint name="caster_wheel_joint" type="fixed">
             <origin xyz="0. 0 0.0" rpy="0 0 0" />
             <parent link="base_caster_support_link" />
             <child link="caster_wheel_link" />

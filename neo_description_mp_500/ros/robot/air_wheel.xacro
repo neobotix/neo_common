@@ -30,6 +30,7 @@ xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
    <geometry>
     <mesh filename="package://neo_description_mp_500/ros/meshes/air_wheel_260.stl"/>
    </geometry>
+   <material name="Black" />
   </visual>
 
   <collision>
