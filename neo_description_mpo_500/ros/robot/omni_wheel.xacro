@@ -48,6 +48,12 @@ xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
  <gazebo reference="${parent}_${suffix}_motor_link" >
   <!--material>Erratic/White</material-->
  </gazebo>
+
+ <transmission type="pr2_mechanism_model/SimpleTransmission" name="${suffix}_trans">
+  <actuator name="${suffix}_motor" />
+  <joint name="${suffix}_joint" />
+  <mechanicalReduction>1.0</mechanicalReduction>
+ </transmission>
 </macro>
 </robot>
 
