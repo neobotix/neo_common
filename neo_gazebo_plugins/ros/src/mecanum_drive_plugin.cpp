@@ -79,11 +79,11 @@ MecanumDrivePlugin::MecanumDrivePlugin(Entity *parent) :
   frontRightJointNameP = new ParamT<std::string> ("frontRightJoint", "", 1);
   backLeftJointNameP = new ParamT<std::string> ("backLeftJoint", "", 1);
   backRightJointNameP = new ParamT<std::string> ("backRightJoint", "", 1);
-  robotLength = new ParamT<float> ("robotLength", 0.34, 1);
-  robotWidth = new ParamT<float> ("robotLength", 0.34, 1);
+  robotLength = new ParamT<float> ("robotLength", 0.25, 1);
+  robotWidth = new ParamT<float> ("robotLength", 0.27, 1);
   wheelDiamP = new ParamT<float> ("wheelDiameter", 0.15, 1);
   torqueP = new ParamT<float> ("torque", 10.0, 1);
-  robotNamespaceP = new ParamT<std::string> ("robotNamespace", "/", 0);
+  robotNamespaceP = new ParamT<std::string> ("robotNamespace", "", 0);
   topicNameP = new ParamT<std::string> ("topicName", "", 1);
   Param::End();
 

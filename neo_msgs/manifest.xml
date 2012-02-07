@@ -1,0 +1,14 @@
+<package>
+  <description brief="neo_msgs">
+
+     neo_msgs
+
+  </description>
+  <author>Timo Hackel</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/neo_msgs</url>
+
+</package>
+
+
