@@ -19,8 +19,8 @@
  *
  */
 /*
- * Desc: ROS interface to a Position2d controller for a Differential drive.
- * Author: Daniel Hewlett (adapted from Nathan Koenig)
+ * Desc: ROS interface to a Position2d controller for a mecanum drive.
+ * Author: Timo Hackel (adapted from Daniel Hewlett)
  */
 #ifndef DIFFDRIVE_PLUGIN_HH
 #define DIFFDRIVE_PLUGIN_HH
