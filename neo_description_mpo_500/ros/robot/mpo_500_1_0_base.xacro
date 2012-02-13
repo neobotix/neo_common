@@ -16,7 +16,7 @@
 
 
 
-    <macro name="mp_s500">
+    <macro name="mpo_500">
 
         <link name="base_link">
             <inertial>
