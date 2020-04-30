@@ -225,6 +225,14 @@ public:
 		return res;
 	}
 
+	void normalize() {
+		(*this) *= (T(1) / norm());
+	}
+
+	Matrix normalized() const {
+		return (*this) * (T(1) / norm());
+	}
+
 	T dot(const Matrix& B) const {
 		T res = 0;
 		for(size_t i = 0; i < size(); ++i) {
