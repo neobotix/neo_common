@@ -218,7 +218,11 @@ public:
 		if(Cols != 1) {
 			throw std::logic_error("Cols != 1");
 		}
-		return get<Rows-1>() * (T(1) / data[Rows-1]);
+		auto res = get<Rows-1>();
+		if(data[Rows-1] != 1) {
+			res *= T(1) / data[Rows-1];
+		}
+		return res;
 	}
 
 	T dot(const Matrix& B) const {
